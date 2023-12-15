@@ -1,0 +1,17 @@
+{
+    "source": {
+      "include": ["src"],
+      "exclude": ["node_modules", "build", "public"],
+      "includePattern": ".+\\.jsx?$"
+    },
+    "opts": {
+      "recurse": true,
+      "destination": "./docs"
+    },
+    "plugins": [],
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+    }
+  }
+  
